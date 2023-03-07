@@ -1,0 +1,20 @@
+.group-photo{
+    max-width: 100%;
+    margin-bottom: 3%; 
+}
+.section{
+    text-align: center;
+    align-self: center;
+}
+.h1-text{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5%;
+    font-weight: bold;
+}
+.para-text{
+    text-align: left;
+    font-family: 'Poppins', sans-serif ;
+    margin-left: 5%;
+    margin-top: 2%;
+}

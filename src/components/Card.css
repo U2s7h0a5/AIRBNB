@@ -1,0 +1,85 @@
+
+.star-image{
+    max-width: 10%;
+    max-height: 10%
+}
+/* .card{
+    max-width: 80%; 
+    max-height: 100%;   
+    padding: 10% 10%;
+    
+} */
+.main-image{
+    max-width: 100%;   
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+.amount{
+    font-weight: bold;
+}
+.para-text1{
+    margin-bottom: 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+.main{    
+    width: 50%;  
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.training-items{
+    flex-basis: 23%;
+    margin: 10px 0px;
+}
+
+/* tab */
+
+@media only screen and (min-width: 768px){
+    .main{
+        width: 80%;  
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .training-items{
+        flex-basis: 35%;
+        margin: 10px 0px;
+    }
+}
+
+/* phone */
+
+@media only screen and  (max-width: 600px){
+    .main{
+        width: 80%;  
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .training-items{
+        flex-basis: 70%;
+        margin: 10px 0px;
+    }
+}
+
+/* laptop */
+
+@media only screen and  (min-width: 992px){
+    .main{    
+        width: 90%;  
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;    
+    }
+    .training-items{
+        flex-basis: 23%;
+        margin: 10px 0px;
+    }
+}
+
+

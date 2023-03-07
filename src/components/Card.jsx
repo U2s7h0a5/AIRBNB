@@ -7,8 +7,7 @@ const Card = () => {
     
     <div className="main">
       {data.map((item, i) => {
-        return (
-            // <div className="container">
+        return (            
           <div className="training-items" key={i}>
             <img className="main-image" src={item.img} alt="pic" />
             <div className="card-body">
@@ -21,8 +20,7 @@ const Card = () => {
                 <span className="amount">From $136</span> / person
               </p>
             </div>          
-          </div>
-        //  </div>
+          </div>        
         );
       })}
     </div>
